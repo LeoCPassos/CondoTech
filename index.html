@@ -32,19 +32,22 @@
             <ul>
 	        <a href="?page=home"><li>Início</li></a>
 	        <ul id="logado" class="hidden">
-                <a href="?page=AbrirChamado" id="nchamado"><li>Abrir chamado</li></a>
-                <a href="?page=chamados" id="meuschamados"><li>Meus chamados</li></a>
-                <a href="?page=criarSugestao" id="nsuges"><li>Criar sugestao</li></a>
-                <a href="?page=MeusNegocios" id="meusneg"><li>Meus negócios</li></a>
+	        <li style="border-bottom: 1px solid gray; margin: 10px;"></li>
+                <a href="?page=AbrirChamado&logado=1" id="nchamado"><li>Abrir chamado</li></a>
+                <a href="?page=chamados&logado=1" id="meuschamados"><li>Meus chamados</li></a>
+                <a href="?page=criarSugestao&logado=1" id="nsuges"><li>Criar sugestao</li></a>
+                <a href="?page=MeusNegocios&logado=1" id="meusneg"><li>Meus negócios</li></a>
+        	<li style="border-bottom: 1px solid gray; margin: 10px;"></li>
                 
                 <ul id="sindica" class="hidden">
-		        <a href="?page=CadMorador" id="cadmor"><li>Cadastrar Morador</li></a>
-		        <a href="?page=CadFunc" id="cadfunc"><li>Cadastrar Funcionário</li></a>
-		        <a href="?page=ChamadosSindica" id="chsind"><li>Chamados</li></a>
+		        <a href="?page=CadMorador&logado=1&sindica=1" id="cadmor"><li>Cadastrar Morador</li></a>
+		        <a href="?page=CadFunc&logado=1&sindica=1" id="cadfunc"><li>Cadastrar Funcionário</li></a>
+		        <a href="sugestoes.html" id="sugest"><li>Sugestões</li></a>
+		        <li style="border-bottom: 1px solid gray; margin: 10px;"></li>
                 </ul>
                 <a href="/CondoTech/"><li>Sair</li></a>
                 </ul>
-                <a id="logar" href="?page=login"><li>Login</li></a>
+                <a id="logar" href="?page=login&logado=1"><li>Login</li></a>
             </ul>
         </div>
     </header>

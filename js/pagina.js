@@ -24,7 +24,7 @@ console.log(page)
 if (page == "login") document.getElementById("nav").classList.add("hidden");
 loadPage(page + ".html");
 
-if (logado != "1"){
+if (logado == "1"){
 	document.getElementById("logado").classList.remove("hidden");
 	document.getElementById("perfil").classList.remove("hidden");
 	document.getElementById("logar").classList.add("hidden");

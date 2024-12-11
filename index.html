@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <ul>
+                <a id="btnmenu" onclick="menutoggle()" style="align-self:center;"><li>
+                    <svg id="svgmenu" width="24" height="24" style="stroke: black; stroke-width: 3" class="">
+                        <line x1="0" x2="24" y1="2" y2="2"/>
+                        <line x1="0" x2="24" y1="12" y2="12"/>
+                        <line x1="0" x2="24" y1="22" y2="22"/>
+                    </svg>
+                    <svg width="24" height="24" style="stroke: black; stroke-width: 3" class="hidden">
+                        <line x1="2" x2="22" y1="2" y2="22"/>
+                        <line x1="2" x2="22" y1="22" y2="2"/>
+                    </svg>
+                </li></a>
+                <li style="flex: auto; text-align: center;"><a href="?page=home"><img src="Imagens/logo.png"></a></li>
+                <a class="perfil hidden" href="?page=Perfil" style="align-self:center; color:black;" id="perfil"><li>Perfil</li></a>
+            </ul>
+        </nav>
+        
+        <div id="menu" class="menu hidden">
+            <ul>
+	        <a href="?page=home"><li>Início</li></a>
+	        <ul id="logado" class="hidden">
+                <a href="?page=AbrirChamado" id="nchamado"><li>Abrir chamado</li></a>
+                <a href="?page=chamados" id="meuschamados"><li>Meus chamados</li></a>
+                <a href="?page=criarSugestao" id="nsuges"><li>Criar sugestao</li></a>
+                <a href="?page=MeusNegocios" id="meusneg"><li>Meus negócios</li></a>
+                
+                <ul id="sindica" class="hidden">
+		        <a href="?page=CadMorador" id="cadmor"><li>Cadastrar Morador</li></a>
+		        <a href="?page=CadFunc" id="cadfunc"><li>Cadastrar Funcionário</li></a>
+		        <a href="?page=ChamadosSindica" id="chsind"><li>Chamados</li></a>
+                </ul>
+                <a href="/CondoTech/"><li>Sair</li></a>
+                </ul>
+                <a id="logar" href="?page=login"><li>Login</li></a>
+            </ul>
+        </div>
+    </header>
+    
+    <main style="">
+        
+
+        <div id="page">
+    </main>
+
+    <div>
+        
+    </div>
+
+
+
+<script src="js/menu.js"></script>
+<script src="js/pagina.js"></script>
+
+</body>
+</html>

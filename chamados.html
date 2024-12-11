@@ -1,0 +1,86 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Meus Chamados</title>
+    </head>
+    <body>
+        <div class="linha">
+            <div class="coluna"><h1>Meus chamados</h1></div>
+            <div class="coluna"><button onclick="AbrirChamado()">Novo chamado</button></div>
+            <div class="coluna" style="align-items: right;"><button onclick="ChamadosHost()">Voltar</button></div>
+        </div>
+
+        <div class="fundochamados" style="">
+
+            <table>
+                <tr>
+                  <th>#</th>
+                  <th>Assunto</th>
+                  <th>Status</th>
+                  <th>Data de abertura</th>
+                </tr>
+                <tr>
+                  <td>n</td>
+                  <td>Titulo do chamado</td>
+                  <td>Aberto</td>
+                  <td>DD/MM/YYYY</td>
+                </tr>
+                <tr>
+                    <td>n</td>
+                    <td>Titulo do chamado</td>
+                    <td>Fechado</td>
+                    <td>DD/MM/YYYY</td>
+                </tr>
+                <tr>
+                    <td>n</td>
+                    <td>Titulo do chamado</td>
+                    <td>Aberto</td>
+                    <td>DD/MM/YYYY</td>
+                  </tr>
+                  <tr>
+                      <td>n</td>
+                      <td>Titulo do chamado</td>
+                      <td>Fechado</td>
+                      <td>DD/MM/YYYY</td>
+                  </tr>
+                  <tr>
+                    <td>n</td>
+                    <td>Titulo do chamado</td>
+                    <td>Aberto</td>
+                    <td>DD/MM/YYYY</td>
+                  </tr>
+                  <tr>
+                      <td>n</td>
+                      <td>Titulo do chamado</td>
+                      <td>Fechado</td>
+                      <td>DD/MM/YYYY</td>
+                  </tr>
+              </table>
+              <div class="linha" style="margin: 10px;">
+                <div class="coluna"><button class="navbtn"><</button></div>
+                <div class="coluna"><button class="navbtn">1</button></div>
+                <div class="coluna"><button class="navbtn">2</button></div>
+                <div class="coluna"><button class="navbtn">3</button></div>
+                <div class="coluna"><button class="navbtn">4</button></div>
+                <div class="coluna"><button class="navbtn">></button></div>
+            </div>
+
+
+            
+        </div>
+    
+        <script>
+            function AbrirChamado() {
+                window.location.href = "AbrirChamado.html";
+            }
+            function ChamadosHost() {
+            window.location.href = "ChamadosHost.html";
+        }
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="iewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Abrir chamado</title>
+    </head>
+    <body>
+
+            <h1>Abrir chamado</h1>
+            <div class="linha responsivo">
+                <div class="coluna" style="width: 100%;">
+                    <Label>Assunto:</Label>
+                    <input type="text" id="assunto" required style="width: 100%;">
+                </div>
+                <div class="coluna" style="width: 100%;">
+                    <Label>Tipo de chamado:</Label>
+                    <select id="tipo" style="width: 100%;">
+                        <option value="barulho">Barulho</option>
+                        <option value="furto">Furto</option>
+                        <option value="hidr">Problema Hidráulico</option>
+                        <option value="estrut">Estrutura</option>
+                        <option value="animais">Animais</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="linha">
+                <div class="coluna" style="width: 100%;">
+                    <label>Descrição:</label>
+                    <textarea rows="6" required placeholder="Descreva a sua sugestão."></textarea>
+                </div>
+            </div>
+
+            <div class="linha">
+                <div class="coluna"><button onclick="MeusChamados()">Enviar</button></div>
+                <div class="coluna"><button onclick="ChamadosHost()">Voltar</button></div>
+            </div>
+
+           
+
+    <script>
+        function MeusChamados() {
+            window.location.href = "MeusChamados.html";
+        }
+        function ChamadosHost() {
+            window.location.href = "ChamadosHost.html";
+        }
+    </script>
+                
+    </body>
+</html>

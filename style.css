@@ -246,6 +246,10 @@ flex: 1;
     margin: 10px;
 }
 
+#logo:hover{
+	background: none;
+}
+
 .card-image {
     width: 100px;
     height: 100px;
